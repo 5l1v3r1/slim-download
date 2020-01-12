@@ -4,6 +4,7 @@
         "athlon1600/youtube-downloader": "^1.0",
         "slim/slim": "3.*",
         "psr/container": "^1.0",
-        "slim/php-view": "^2.2"
+        "slim/php-view": "^2.2",
+        "slim/http-cache": "^0.4.0"
     }
 }
