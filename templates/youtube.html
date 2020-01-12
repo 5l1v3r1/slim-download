@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Download-Computer-512.png" type="image/x-icon" >
+  <head>
+    <title>YouTube | Facebook | Instagram | Downloader</title>
+  </head>
+  <style type="text/css">
+    @import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap");
+    body {
+      font-family: "Ubuntu Condensed", sans-serif;
+    }
+    .icon {
+      height: 40px;
+      width: 40px;
+    }
+    .header {
+      width: 70px;
+      height: 70px;
+    }
+    .yt {
+      height: 40px;
+      width: 100px;
+    }
+    span.p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    a.p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    div.body {
+      width: 98%;
+    }
+  </style>
+  <body>
+    <br />
+    <br />
+    <br />
+    <center>
+      <div class="body">
+        <table class="table table-bordered">
+          <tr class="table-primary">
+            <center>
+              <a href="../index.html" style="color:#000">
+                <h3>
+                  <img
+                    src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Download-Computer-512.png"
+                    class="header"
+                  />&nbsp;&nbsp;YouTube | Facebook | Instagram | Downloader
+                </h3>
+              </a>
+            </center>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/502px-Logo_of_YouTube_%282015-2017%29.svg.png"
+                  class="yt"
+                />
+                &nbsp;&nbsp;<span class="p">YouTube Downloader</span>
+              </center>
+            </td>
+            <td>
+              <center>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+                  class="icon"
+                />
+                &nbsp;&nbsp;<a href="../fb-dl" class="p">Facebook Downloader</a>
+              </center>
+            </td>
+            <td>
+              <center>
+                <img
+                  src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png"
+                  class="icon"
+                />
+                &nbsp;&nbsp;<a href="../ig-dl" class="p"
+                  >Instagram Downloader</a
+                >
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" style="padding:50px;">
+              <form method="POST" action="youtube.php">
+                <div class="input-group">
+                  <input
+                    name="link"
+                    type="text"
+                    class="form-control"
+                    placeholder="Paste link YouTube here.."
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                    required
+                  />
+                  <div class="input-group-append">
+                    <button
+                      name="tipe"
+                      value="mp4"
+                      class="btn btn-danger"
+                      type="submit"
+                    >
+                      MP4 360p
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </body>
+</html>
